@@ -27,6 +27,7 @@ body {
 .navigation li {
   display: inline-block;
   padding: 20px;
+  font-weight: bolder;
 }
 
 .navigation a {
@@ -62,19 +63,24 @@ body {
 }
 
 a, a:hover {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: rgb(175, 165, 198);
 }
 
 .social_links, .social_links ul, .social_links li {
-    margin: 0;
-    padding: 5px;
+  margin: 0;
+  padding: 5px;
 }
 
 .social_links li {
-    list-style: none outside none;
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 20px;
+  list-style: none outside none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 20px;
 }
 
 .social_links .fa {
@@ -91,7 +97,7 @@ a, a:hover {
 .social_links .fa:hover {
   color: #FFF;
   background-color: #000;
-  border: 1px solid #000;
+  /*border: 1px solid #000;*/
 }
 
 .footer_space {
@@ -104,24 +110,24 @@ a, a:hover {
 }
 
 .fa-github:before {
-    content: "\f09b";
-    padding-right: 12px;
+  content: "\f09b";
+  padding-right: 12px;
 }
 
 .fa-envelope:before {
-    content: "\f0e0";
-    padding-right: 12px;
+  content: "\f0e0";
+  padding-right: 12px;
 }
 
 .fa-camera-retro:before {
-    content: "\f083";
-    padding-right: 12px;
+  content: "\f083";
+  padding-right: 12px;
 }
 
 /*_____________________________________*/
 
 .home_background {
-  background: url("images/bellsbeach2copy.jpg") center center fixed;
+  background: url("images/bellsbeach3.jpg") center center fixed;
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -130,7 +136,7 @@ a, a:hover {
 
 .header {
   background-color: rgb(19, 23, 20);
-  background-color: rgba(19, 23, 20, 0.6);
+  background-color: rgba(19, 23, 20, 0.7);
   color: beige;
   width: 100%;
   text-align: center;
@@ -240,6 +246,11 @@ a, a:hover {
   /*width: 100%;*/
 }
 
+.about_me p {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
 ul.img {
   list-style-type: none;
   margin: 0;
@@ -253,6 +264,15 @@ ul.img li {
   margin: 5% 0 5% 0;
   position: relative;
 }
+
+/*ul.img a:hover {
+  text-decoration: none;
+}
+
+ul.img span:visited {
+  text-decoration: none;
+  color: rgb(127, 111, 166);
+}*/
 
 span.img_txt {
   background: rgba(0,0,0,0.5);
@@ -310,6 +330,10 @@ ul.img li:hover span.img_txt {
   margin-bottom: 10px;
 }
 
+.box_wrapper a, a:visited {
+  color: rgb(127, 111, 166);
+}
+
 .work .row h4 {
   padding: 0%;
   margin-bottom: 0%;
@@ -335,9 +359,17 @@ ul.img li:hover span.img_txt {
 }
 
 .work .row li a {
-  text-decoration: underline;
-  /*color: beige;*/
+  text-decoration: none;
   color: rgb(251, 166, 97);
+  font-weight: bolder;
+}
+
+.work .row li a:hover {
+  text-decoration: underline;
+}
+
+.work .row li a:visited {
+  color: rgb(175, 165, 198);
 }
 
 ul, ol {
@@ -391,7 +423,15 @@ ul, ol {
 }
 
 .project .row li a {
-  text-decoration: underline;
-  /*color: beige;*/
+  text-decoration: none;
   color: rgb(150, 214, 161);
+  font-weight: bolder;
+}
+
+.project .row li a:hover {
+  text-decoration: underline;
+}
+
+.project .row li a:visited {
+  color: rgb(175, 165, 198);
 }
