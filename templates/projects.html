@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="static/bootstrap.css" rel="stylesheet" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="static/main.css"/>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+  <body class="projects_background">
+    <div class="projects_background">
+      <div class="container_main">
+        <div class="header">
+          <h1>Projects</h1></h1>
+          <div class='project'>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="box_wrapper">
+                    <h4>FarMar</h4>
+                  </div>
+                  <ul>
+                    <li>
+                      Created a farmer's market information filtering program based on data from csv files.  Data includes sales facts, product specifications, vendor information, and locales of the markets.  Used object oriented programming.
+                    </li>
+                    <li><a href="https://github.com/xbell/far_mar">See it on Github</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <div class="box_wrapper">
+                    <h4>Menu Builder</h4>
+                  </div>
+                  <ul>
+                    <li>
+                      <!-- Built a database driven application for an online menu to reflect that of an actual local, Seattle restaurant, which currently uses PDF menus.  Using the techniques of pair programming, this application was made for The Walrus and the Carpenter <a href="http://www.thewalrusbar.com">(http://www.thewalrusbar.com)</a>.  The theme of the site is maintained throughout, and it allows for items to be added, edited, and deleted as frequent as needed. -->
+
+                      Created a restaurant menu Rails application based off of the website for a local, Seattle restaurant, The Walrus and the Carpenter <a href="http://www.thewalrusbar.com">(http://www.thewalrusbar.com)</a>.  The application utilizes an SQL database to add, edit, and delete individual menu items without the need to generate new PDFs everytime the menu changes.
+                    </li>
+                    <li><a href="https://github.com/xbell/walrus">See it on Github</a></li>
+                    <li><a href="https://walrus-menu.herokuapp.com/sections">See it on Heroku</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <div class="box_wrapper">
+                    <h4>Image Rating</h4>
+                  </div>
+                  <ul>
+                    <li>
+                      Built a social image sharing Rails application using Bootstrap where users can upload images for storage and peer review.  Implemented CarrierWave and utilized Amazon S3 for uploaded images.  The application allows for email notifications when an image is rated and also applies Gravatar to provide user profile images.  An SQL database is used to store associated image metadata.
+                    </li>
+                    <li><a href="https://github.com/xbell/image_uploader">See it on Github</a></li>
+                    <li><a href="https://image-uploader-eb.herokuapp.com/">See it on Heroku</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <ul>
+              <li><a href="/about-me">About Me</a></li>
+              <li><a href="/work-experience">Work</a></li>
+              <li><a href="/">Home</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="space">
+        </div>
+        <div class="footer">
+          <div class="social_links">
+            <ul>
+              <li><a href="https://www.linkedin.com/pub/evelyn-bell/a1/868/85" class="fa fa-lg fa-linkedin"></a></li>
+              <li><a href="https://github.com/xbell" class="fa fa-lg fa-github"></a></li>
+              <li><a href="mailto:evieb16@gmail.com" class="fa fa-md fa-envelope"></a></li>
+              <li><a href="https://www.google.com/maps/place/Chihuly+Garden+and+Glass/@47.620563,-122.3526547,17z/data=!3m1!4b1!4m2!3m1!1s0x54901545d66b3b55:0x7b41db287e00e687" class="fa fa-md fa-camera-retro"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_space">
+        </div>
+      </div>
+    </div>
+
+    <!-- <%= yield %> -->
+
+  </body>
+</html>
