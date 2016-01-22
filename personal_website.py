@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from flask import render_template
 
@@ -25,6 +26,6 @@ def work():
 def projects():
     return render_template("projects.html")
 
-
 if __name__ == '__main__':
-    app.run()
+    port = os.environ.get("PORT") or 5000
+    app.run("0.0.0.0", port)
