@@ -145,6 +145,7 @@ a, a:visited {
 .header h1 {
   font-size: 400%;
   padding-top: 5%;
+  margin-bottom: 30px;
 }
 
 .intro {
@@ -362,6 +363,7 @@ ul.img li:hover span.img_txt {
   text-decoration: none;
   color: rgb(251, 166, 97);
   font-weight: bolder;
+  list-style: none;
 }
 
 .work .row li a:hover {
@@ -375,7 +377,8 @@ ul.img li:hover span.img_txt {
 ul, ol {
   margin-top: 0;
   margin-bottom: 10px;
-  margin-left: -22px;
+  margin-left: -40px;
+  list-style: none;
 }
 
 /*___________________________________*/
