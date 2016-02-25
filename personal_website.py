@@ -26,6 +26,10 @@ def work():
 def projects():
     return render_template("projects.html")
 
+@app.route('/resume')
+def resume():
+    return render_template("resume.html")
+
 if __name__ == '__main__':
     port = os.environ.get("PORT") or 5000
     app.run("0.0.0.0", port)
