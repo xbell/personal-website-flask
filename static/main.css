@@ -124,7 +124,7 @@ a, a:visited {
   padding-right: 12px;
 }
 
-/*_____________________________________*/
+/* Home Page */
 
 .home_background {
   background: url("images/bellsbeach3.jpg") center center fixed;
@@ -228,7 +228,7 @@ a, a:visited {
     100% { opacity: 0; height: 32.7273px; }
 }
 
-/*______________________________________________*/
+/* About Me Page */
 
 .about_me_background {
   background: url("images/reflection2.jpg") center center fixed;
@@ -310,7 +310,7 @@ ul.img li:hover span.img_txt {
   opacity: 1;
 }
 
-/*_________________________________________*/
+/* Work Page */
 
 .work_background {
   background: url("images/diamondhead2.jpg") center center fixed;
@@ -395,9 +395,55 @@ ul, ol {
 
 .resume li {
   list-style: none;
+  margin-bottom: 10px;
 }
 
-/*___________________________________*/
+/* Resume Page */
+
+.resume_background {
+  background: url("images/skyline.jpg") center center fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.row li a {
+  text-decoration: none;
+  color: rgb(251, 166, 97);
+  font-weight: bolder;
+  list-style: none;
+}
+
+.row li a:hover {
+  text-decoration: underline;
+}
+
+.row li a:visited {
+  color: rgb(175, 165, 198);
+}
+
+.resume_background h1 {
+  margin-bottom: 80px;
+}
+
+.resume_background h3 {
+  text-decoration: underline;
+}
+
+.resume_background h5 {
+  margin-top: -5px;
+}
+
+.work-2nd-row {
+  margin: 20px;
+}
+
+/* Projects Page */
 
 .projects_background {
   background: url("images/chihulyceiling2.jpg") center center fixed;
