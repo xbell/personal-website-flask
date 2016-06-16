@@ -350,11 +350,11 @@ ul.img li:hover span.img_txt {
   font-size: 21px;
 }
 
-.work .row h5 {
+/*.work .row h5 {
   margin: 0%;
   display: inline-block;
   font-size: 21px;
-}
+}*/
 
 /*.work .row ul {
   margin-left: -1%;
@@ -362,8 +362,12 @@ ul.img li:hover span.img_txt {
   padding-top: 1%;
 }*/
 
+.summary {
+  font-size: 13px;
+}
+
 .work .row li {
-  padding-bottom: 4px;
+  padding-top: 10px;
 }
 
 .work .row li a {
